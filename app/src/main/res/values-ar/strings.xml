@@ -37,5 +37,6 @@
     <string name="q10a3">القاهره</string>
     <string name="submit_button">تقديم الاجابات</string>
     <string name="reset_button">اعاده حساب الدرجه</string>
-    <string name="toast">درجتك هى</string>
+    <string name="toast1">رائع درجتك هى</string>
+    <string name="toast2">يمكنك أن تفعل أفضل! درجتك هى</string>
 </resources>

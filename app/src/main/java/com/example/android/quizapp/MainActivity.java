@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    static int gradeCalculator = 0;
+    static int gradeCalculator;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
 
         //question three answer africa--------------------------------------------------------------
         EditText QuestionThree = findViewById(R.id.question3);
-        String QuestionThreeAnswer = QuestionThree.getText().toString().toLowerCase();
+        String QuestionThreeAnswer = QuestionThree.getText().toString().toLowerCase().trim();
 
         if (QuestionThreeAnswer.equals("africa") || QuestionThreeAnswer.equals("افريقيا")) {
             gradeCalculator = gradeCalculator + 1;
@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity {
 
         //question nine answer asia-----------------------------------------------------------------
         EditText QuestionNine = findViewById(R.id.question9);
-        String QuestionNineAnswer = QuestionNine.getText().toString().toLowerCase();
+        String QuestionNineAnswer = QuestionNine.getText().toString().toLowerCase().trim();
 
         if (QuestionNineAnswer.equals("asia") || QuestionNineAnswer.equals("اسيا")) {
             gradeCalculator = gradeCalculator + 1;
@@ -133,7 +133,13 @@ public class MainActivity extends AppCompatActivity {
      */
     public void checkAnswers(View view) {
         int finalResult = calculateScore(gradeCalculator);
-        //display when submit button is clicked to submit the answer and display the score message
-        Toast.makeText(MainActivity.this, getString(R.string.toast) + " " + finalResult + "/10", Toast.LENGTH_SHORT).show();
+
+        //displays in case all answers are correct
+        if (finalResult == 10){
+        Toast.makeText(MainActivity.this, getString(R.string.toast1) + " " + finalResult + "/10", Toast.LENGTH_SHORT).show();
+        //displays in case not all answers are correct
+        }else {
+            Toast.makeText(MainActivity.this, getString(R.string.toast2) + " " + finalResult + "/10", Toast.LENGTH_SHORT).show();
+        }
     }
 }

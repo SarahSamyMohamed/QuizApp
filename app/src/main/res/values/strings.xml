@@ -59,5 +59,6 @@
     <string name="submit_button">submit answers</string>
     <string name="reset_button">reset my score</string>
 
-    <string name="toast">your score is</string>
+    <string name="toast1">Awesome! your score is</string>
+    <string name="toast2">you can do better! your score is</string>
 </resources>
