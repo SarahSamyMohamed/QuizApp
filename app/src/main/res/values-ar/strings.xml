@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">اختبار عربى</string>
+    <string name="heading">اختبر معرفتك العامه بالدول العربيه</string>
+    <string name="q1">1)كم عدد الدول العربيه؟</string>
+    <string name="q1a1">10 دول</string>
+    <string name="q1a2">22 دوله</string>
+    <string name="q1a3">20 دوله</string>
+    <string name="q2">2)اى هذه الدول تقع فى العام العربي؟</string>
+    <string name="q2a1">مصر</string>
+    <string name="q2a2">المغرب</string>
+    <string name="q2a3">تركيا</string>
+    <string name="q3">3)فى اى قاره تقع مصر؟</string>
+    <string name="q3hint">اسم القاره</string>
+    <string name="q4">4)اى هذه الاعلام تنتمى لمصر؟</string>
+    <string name="q5">5)كم عدد سكان الدول العربيه؟</string>
+    <string name="q5a1">20 بليون</string>
+    <string name="q5a2">100 مليون</string>
+    <string name="q5a3">422 مليون</string>
+    <string name="q6">6)كيف تلقى التحيه باللغه العربيه؟</string>
+    <string name="q6a1">السلام عليكم</string>
+    <string name="q6a2">مرحبا</string>
+    <string name="q6a3">شكرا</string>
+    <string name="q7">7)اى هذه اللغات تعد لغات رئيسيه فى دوله المغرب؟</string>
+    <string name="q7a1">العربيه</string>
+    <string name="q7a2">الفرنسيه</string>
+    <string name="q7a3">الانجليزيه</string>
+    <string name="q8">8)كم عدد حروف الابجديه العربيه؟</string>
+    <string name="q8a1">20 حرف</string>
+    <string name="q8a2">28 حرف</string>
+    <string name="q8a3">15 حرف</string>
+    <string name="q9">9)فى اى القارات تقع المملكه العربيه السعوديه؟</string>
+    <string name="q9hint">اسم القاره</string>
+    <string name="q10">10)ما هى اكبر مدن الدول العربيه؟</string>
+    <string name="q10a1">عمان</string>
+    <string name="q10a2">دبى</string>
+    <string name="q10a3">القاهره</string>
+    <string name="submit_button">تقديم الاجابات</string>
+    <string name="reset_button">اعاده حساب الدرجه</string>
+    <string name="toast">درجتك هى</string>
+</resources>

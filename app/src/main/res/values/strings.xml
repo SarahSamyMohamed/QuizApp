@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">ArabQuiz</string>
+
+    <string name="heading">Test your general knowledge of the Arab world</string>
+
+    <!--question one-->
+    <string name="q1">1) how many countries the arab world consists of?</string>
+    <string name="q1a1">10 countries</string>
+    <string name="q1a2">22 countries</string>
+    <string name="q1a3">20 countries</string>
+
+    <!--question two-->
+    <string name="q2">2) which countries fall in the arab world?</string>
+    <string name="q2a1">Egypt</string>
+    <string name="q2a2">Morocco</string>
+    <string name="q2a3">Turkey</string>
+
+    <!--question three-->
+    <string name="q3">3) in which continent egypt is located?</string>
+    <string name="q3hint">Continent Name</string>
+
+    <!--question four-->
+    <string name="q4">4) which flag belongs to egypt?</string>
+
+    <!--question five-->
+    <string name="q5">5) The contemporary Arab world has a combined population of around .. inhabitants</string>
+    <string name="q5a1">20 billion</string>
+    <string name="q5a2">100 million</string>
+    <string name="q5a3">422 million</string>
+
+    <!--question six-->
+    <string name="q6">6) how would you say hello in Arabic?</string>
+    <string name="q6a1">Alslam alaikum</string>
+    <string name="q6a2">Marhaba</string>
+    <string name="q6a3">Shukran</string>
+
+    <!--question seven-->
+    <string name="q7">7) which languages do they speak in Morocco as main languages?</string>
+    <string name="q7a1">Arabic</string>
+    <string name="q7a2">French</string>
+    <string name="q7a3">English</string>
+
+    <!--question eight-->
+    <string name="q8">8) how many letters The Arabic alphabet includes?</string>
+    <string name="q8a1">20 letters</string>
+    <string name="q8a2">28 letters</string>
+    <string name="q8a3">15 letters</string>
+
+    <!--question nine-->
+    <string name="q9">9) in which continent saudi arabia is located?</string>
+    <string name="q9hint">Continent Name</string>
+
+    <!--question ten-->
+    <string name="q10">10) what is the largest city in the Arab world?</string>
+    <string name="q10a1">Amman</string>
+    <string name="q10a2">Dubai</string>
+    <string name="q10a3">Cairo</string>
+
+    <string name="submit_button">submit answers</string>
+    <string name="reset_button">reset my score</string>
+
+    <string name="toast">your score is</string>
+</resources>
