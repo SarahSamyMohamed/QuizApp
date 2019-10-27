@@ -134,11 +134,11 @@ public class MainActivity extends AppCompatActivity {
     public void checkAnswers(View view) {
         int finalResult = calculateScore(gradeCalculator);
 
-        //displays in case all answers are correct
-        if (finalResult == 10){
-        Toast.makeText(MainActivity.this, getString(R.string.toast1) + " " + finalResult + "/10", Toast.LENGTH_SHORT).show();
-        //displays in case not all answers are correct
-        }else {
+        if (finalResult == 10) {
+            //displayed in case all answers are correct
+            Toast.makeText(MainActivity.this, getString(R.string.toast1) + " " + finalResult + "/10", Toast.LENGTH_SHORT).show();
+        } else {
+            //displayed in case not all answers are correct
             Toast.makeText(MainActivity.this, getString(R.string.toast2) + " " + finalResult + "/10", Toast.LENGTH_SHORT).show();
         }
     }
